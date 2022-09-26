@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <EditText
+
+           android:elevation="3dp"
+           android:id="@+id/barra_pesquisa"
+           android:layout_width="384dp"
+           android:layout_height="48dp"
+           android:layout_margin="8dp"
+           android:background="@drawable/search_br"
+           android:drawablePadding="5dp"
+           android:padding="13dp"
+           android:hint="Pesquise por produtos..."
+           android:textColorHint="@color/green_500"/>
+
+       <LinearLayout
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:weightSum="2">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="Produtos populares"
+               android:textSize="18sp"
+               android:textStyle="bold"/>
+           <TextView
+               android:id="@+id/ver_todos_pop"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Ver todos"
+               android:layout_weight="1"
+               android:gravity="end"
+               android:layout_marginRight="7dp"
+               android:textSize="16sp"
+               android:textColor="@color/green_500"/>
+
+       </LinearLayout>
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/pop_rec"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"/>
+
+
+       <LinearLayout
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:weightSum="2">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="Explorar produtos"
+               android:textSize="18sp"
+               android:textStyle="bold"/>
+           <TextView
+               android:id="@+id/ver_todos_explor"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Ver todos"
+               android:layout_weight="1"
+               android:gravity="end"
+               android:layout_marginRight="7dp"
+               android:textSize="16sp"
+               android:textColor="@color/green_500"/>
+
+       </LinearLayout>
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/explorar_rec"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"/>
+
+
+       <LinearLayout
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:weightSum="2">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="Produtos Recomendados"
+               android:textSize="18sp"
+               android:textStyle="bold"/>
+           <TextView
+               android:id="@+id/ver_todos_recom"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Ver todos"
+               android:layout_weight="1"
+               android:gravity="end"
+               android:layout_marginRight="7dp"
+               android:textSize="16sp"
+               android:textColor="@color/green_500"/>
+
+       </LinearLayout>
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recomendados_rec"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"/>
+
+   </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_categorias"
+            android:icon="@drawable/category"
+            android:title="Categórias"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_carrinho"
+            android:icon="@drawable/nav_cart"
+            android:title="Carrinho"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_pedidos"
+            android:icon="@drawable/orders"
+            android:title="Pedidos"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_definicoes"
+            android:icon="@drawable/settings"
+            android:title="Definições"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Sair"
+            android:iconTint="@color/white"/>
+    </group>
+</menu>

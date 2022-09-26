@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "837000785312",
+    "project_id": "loja-online-3c8f3",
+    "storage_bucket": "loja-online-3c8f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837000785312:android:fd5e62e291112f274848c5",
+        "android_client_info": {
+          "package_name": "www.nazirdaudo.lojaonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837000785312-1oimoffsjjreh8qfp7s41c7er3ubkkv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.nazirdaudo.lojaonline",
+            "certificate_hash": "6750d8cfdbf3135fc39c858d6893feae4fd93b6b"
+          }
+        },
+        {
+          "client_id": "837000785312-cip2nlt6n7chng518h9of5jnrpoohnr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5YmHvyr42FmbOhBIP2C2ql2-7HX-Oi88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837000785312-cip2nlt6n7chng518h9of5jnrpoohnr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
